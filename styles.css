@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(./Fonts/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Neue Montreal Bold';
+    src: url(./Fonts/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Neue Montreal Italic';
+    src: url(./Fonts/NeueMontreal-Italic.otf);
+}
+
+@font-face {
+    font-family: 'Neue Montreal Light Italic';
+    src: url(./Fonts/NeueMontreal-LightItalic.otf);
+}
+
+
+@font-face {
+    font-family: 'Neue Montreal Light';
+    src: url(./Fonts/NeueMontreal-Light.otf);
+}
+
+* {
+    margin: 0;
+    font-family: 'Neue Montreal';
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 800;
+    color: #f4f3ee;
+    background-color: #222222;
+    z-index: 1;
+}
+
+
+.navbar {
+    display: inline;
+    margin-left: auto;
+}
+
+a.back-to-top {
+    font-family: 'Neue Montreal Bold';
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    color: #f4f3ee;
+}
+
+li {
+    display: inline;
+}
+
+li:not(:nth-child(4)) {
+    padding: 20px;
+}
+
+.promo {
+    color: red;
+}
+
+.cart {
+    padding-left: 20px;
+}
+
+.header-icon {
+    filter: invert(100%);
+    width: 20px;
+}
+
+.landing-image-container {
+    background-image:
+        linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)),
+        url(./Images/timothy-l-brock-WJ5mej6mWi4-unsplash.jpg);
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text {
+    font-family: 'Neue Montreal Bold';
+    text-align: center;
+    font-size: 100px;
+    color: #f4f3ee;
+}
+
+.menu-intro {
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Neue Montreal Light Italic';
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #f4f3ee;
+    background-color: #222222;
+}
+
+.menu-options-container {
+    padding: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-options {
+    width: 200px;
+}
+
+a:not(.back-to-top) {
+    text-decoration: none;
+    color: #f4f3ee;
+}
+
+a:hover:not(.back-to-top) {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    filter: invert(100%);
+    width: 20%;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Neue Montreal Bold';
+    font-size: 14px;
+}
+
+.menu {
+    padding: 50px 0;
+}
+
+.rice,
+.noodles,
+.banh-mi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.rice,
+.noodles {
+    padding-bottom: 25px;
+}
+
+.rice-item,
+.noodle-item,
+.banh-mi-item {
+    width: 25vw;
+    text-align: center;
+    color: #f4f3ee;
+    background-color: #222222;
+}
+
+.item-image {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    padding-bottom: 15px;
+}
+
+.item-name {
+    font-family: 'Neue Montreal Bold';
+    padding-bottom: 5px;
+}
+
+.item-description {
+    font-family: 'Neue Montreal Light Italic';
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.item-price {
+    font-color: red;
+    padding-bottom: 10px;
+}
+
+.add-to-cart {
+    padding-bottom: 15px;
+}
+
+.footer {
+    padding: 25px;
+    font-size: 14px;
+    display: flex;
+    gap: 50px;
+    color: #f4f3ee;
+    background-color: #222222;
+}
+
+.visit-us {
+    display: flex;
+    align-items: center;
+    font-family: 'Neue Montreal Bold';
+    font-size: 100px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
